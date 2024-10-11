@@ -1,0 +1,42 @@
+http://localhost:5100/api/v1/jobs
+###
+
+http://localhost:5100/api/v1/jobs/test/auth
+content-type:application/jsonto
+{
+  "email":"john@gmail.com",
+  "password":"secret123"
+}
+###
+
+
+# magla aris mern staki dabla sql grideris
+
+http://localhost:3005/users/1
+
+###
+
+
+POST http://localhost:3005/users HTTP/1.1
+content-type:application/json
+
+{
+    "username":"minty3",
+    "bio":"I am a mint"
+}
+
+
+###
+PUT http://localhost:3005/users/1 HTTP/1.1
+content-type:application/json
+
+{   
+ "username":"Alyson156",
+ "bio":"I AM ALYSONAAAAA"
+}
+
+
+###
+DELETE http://localhost:3005/users/8 HTTP/1.1
+
+
